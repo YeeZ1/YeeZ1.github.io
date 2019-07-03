@@ -1,0 +1,276 @@
+.de_container {
+	margin-bottom: 50px;
+}
+.crumb_wrap {
+	margin: 20px 0 10px 0;
+}
+
+.crumb_wrap a {
+	margin-right: 15px;
+}
+.product_intro {
+	margin-bottom: 50px;
+}
+.preview_wrap {
+	width: 400px;
+	margin-right: 50px;
+}
+.preview_img {
+	position: relative;
+	margin-bottom: 50px;
+	border: 1px solid #ccc;
+	cursor: move ;
+}
+.mask {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	opacity: .3;
+}
+.bigpic {
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 408px;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #eee;
+	z-index: 99;
+}
+.pic_i {
+	position: absolute;
+	left: 0;
+	top: 0 ;
+}
+.preview_list {
+	position: relative;
+	padding: 0 50px;
+}
+.preview_list li {
+	float: left;
+	width: 56px;
+	height: 56px;
+	margin-right: 0;
+	border: 2px solid transparent;
+}
+.preview_list .current {
+	border-color: #f10825;
+}
+.arr-l,
+.arr-r {
+	position: absolute;
+	top: 14px;
+	width: 22px;
+	height: 32px;
+}
+.arr-l {
+	background: url(../img/arrow-prev.png) no-repeat;
+	left: 0;
+}
+.arr-r {
+	background: url(../img/arrow-next.png) no-repeat;
+	right: 0;
+}
+.itemInfo_wrap {
+	width: 718px;
+}
+.sku_name h4 {
+	height: 30px;
+	font-size: 16px;
+}
+.itemInfo_wrap .news {
+	height: 32px;
+	color: #f10825;
+}
+.itemInfo_wrap dl {
+	overflow: hidden;
+}
+.summary_price {
+	position: relative;
+	height: 36px;
+	padding: 10px 0 ;
+	line-height: 36px;
+	background-color: pink;
+}
+.itemInfo_wrap dt,
+.itemInfo_wrap dd {
+	float: left;
+}
+.itemInfo_wrap dt {
+	width: 66px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+}
+.summary_price .price {
+	margin-right: 10px;
+	font-size: 18px;
+	color: #f10825;
+}
+.summary_price .remark {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+.summary_promotion {
+	height: 82px;
+	line-height: 36px;
+	background-color: pink;
+}
+.summary_promotion .addprice {
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	background-color: #f10825;
+}
+.summary_promotion dd {
+	width: 450px;
+}
+.summary_support {
+	height: 36px;
+	line-height: 36px;
+}
+.choose_color dd a ,
+.choose_type dd a ,
+.choose_buy dd a {
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	background-color: #F7F7F7;
+}
+.itemInfo_wrap .current {
+	border-color: #f10825;
+}
+.choose_color,
+.choose_type,
+.choose_buy  {
+	margin-bottom: 10px;
+}
+.choose_btns {
+	margin-top: 20px;
+}
+.choose_amount {
+	position: relative;
+	width: 50px;
+	height: 46px;
+	border: 1px solid #ccc;
+}
+.choose_amount .btn {
+	width: 34px;
+	height: 46px;
+	outline: none;
+	border: none ;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.choose_amount .add ,
+.choose_amount .reduce {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+.choose_amount .reduce {
+	bottom: 0;
+	height: 22px;
+	border-top: 1px solid #ccc;
+	cursor: not-allowed;
+}
+.add_car a{
+	display: block;
+	width: 146px;
+	height: 46px;
+	margin-left: 10px;
+	line-height: 46px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	background-color: #f10825;
+}
+.product_detail .aside {
+	width: 210px;
+	/*height: 2000px;*/
+	border: 1px solid #ccc;
+}
+.product_detail .detail {
+	width: 978px;
+	/*height: 2000px;*/
+}
+.tab_list .first_tab {
+	float: left;
+	width: 105px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.tab_list .second_tab {
+	float: left;
+	width: 104px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #f00;
+}
+.tab_con li {
+	width: 190px;
+	height: 228px;
+	margin: 0 auto ;
+	border-bottom: 1px solid #ccc;
+}
+.tab_con h5 {
+	line-height: 30px;
+	font-weight: 400;
+}
+.tab_con .aside_price {
+	font-weight: 700;
+}
+.tab_con .as_addcar {
+	display: block;
+	width: 90px;
+	height: 28px;
+	margin: 8px auto ;
+	text-align: center;
+	line-height: 28px;
+	border: 1px solid #ccc;
+}
+.detail_tab_list {
+	height: 34px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+}
+.detail_tab_list li {
+	float: left;
+}
+.detail_tab_list a {
+	display: block;
+	padding: 0 20px ;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+}
+.detail_tab_list .current {
+	background-color: #C81623;
+	color: #fff;
+}
+.detail .item {
+	padding-left: 15px;
+}
+.detail .item li {
+	line-height: 22px;
+}

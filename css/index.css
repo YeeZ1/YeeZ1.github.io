@@ -1,0 +1,263 @@
+.main {
+	height: 455px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	overflow: hidden;
+	width: 721px;
+	height: 100%;
+	margin-left: 210px;
+}
+.focus ul {
+	overflow: hidden;
+	width: 500%;
+	position: absolute;
+	top: 0 ;
+	left: 0;
+}
+.focus ul li {
+	float: left;
+}
+.circle {
+	position: absolute;
+	bottom: 15px;
+	left: 50px;
+	/*margin-left:-56px;*/
+	border-radius: 8px;
+	z-index: 99;
+	/*background-color: rgba(0,0,0,.4);*/
+}
+.circle li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin:4px 3px;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,.4);
+}
+.circle .active {
+	background-color: #fff;
+}
+.arr-l,
+.arr-r {
+	display: none;
+	position: absolute;
+	top: 50% ;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	color: #fff;
+	background: rgba(0,0,0,.3);
+}
+.arr-r {
+	right: 0;
+}
+.newflash {
+	width: 250px;
+	height: 455px;
+	background-color: #fff;
+}
+.news {
+	width: 250px;
+	height: 165px;
+}
+.news-hd {
+	height: 33px;
+	padding: 0 15px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	border-bottom:1px dotted #ccc;
+}
+.news-hd h3 {
+	font-weight: 400;
+}
+.news-hd h3 a {
+	float: right;
+}
+.news-bd {
+	/*width: 248px;*/
+	height: 119px;
+	padding: 10px 0  0 20px;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+.news-bd li a{
+	font-size: 12px;
+	line-height: 22px;
+}
+.lifeservice {
+	width: 248px;
+	height: 209px;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 252px;
+}
+.lifeservice li {
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	/*background-color: pink;*/
+}
+.lifeservice li a {
+	display: block;
+	float: left;
+	height: 70px;
+	width: 62px;
+}
+.lifeservice .icon {
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background: url(../img/icons.png) no-repeat -78px -18px;
+}
+.lifeservice p {
+	text-align: center;
+}
+.jian {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 15px;
+	background: url(../img/jian.jpg) no-repeat;
+}
+.recommend {
+	height: 167px;
+	margin: 10px auto;
+	/*background-color: pink;*/
+}
+.today {
+	float: left;
+	width: 200px;
+	height: 167px;
+	text-align: center;
+	background-color: #ccc;
+}
+.today img {
+	margin: 20px 0 10px 0 ;
+}
+.today p {
+	font-size: 18px;
+	font-weight: 400;
+}
+.recommend ul {
+	background-color: #ebebeb;
+}
+.recommend li {
+	float: left;
+	width: 250px;
+	margin-top: 10px;
+	border-right: 1px solid #ccc;
+	box-sizing:border-box;
+	/*background-color: pink;*/
+}
+.last {
+	border-right: none !important; 
+}
+.show1{
+	position: fixed;
+	display: none;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	height: 198px;
+	/*background-color: red;*/
+}
+.show1 li {
+	width: 66px;
+	height: 32px;
+	line-height: 33px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+	text-align: center;
+}
+.show1 li a {
+	display: block;
+	width: 66px;
+	height: 33px;
+	
+	
+}
+.show1 .current {
+	background-color: #f10825;
+	color: #fff;
+}
+.box_hd {
+	height: 30px;
+	margin-top: 20px;
+	line-height: 30px;
+	border-bottom: 2px solid #C81623;
+}
+.box_hd h3 {
+	font-size: 18px;
+	color: #C81623;
+}
+.box_hd .cheap li {
+	float: left;
+}
+.box_hd>.fr>li>a {
+	padding: 15px;
+	font-size: 12px;
+}
+.box_bd>ul>li {
+	float: left;
+	height: 360px;
+}
+.w209 {
+	width: 209px;
+	text-align: center;
+	background-color: #F9F9F9;
+}
+.w329 {
+	width: 329px;
+	/*border-right: 1px solid #ccc;*/
+}
+.w219 {
+	width: 219px;
+	/*border-right: 1px solid #ccc;*/
+}
+.w220 {
+	width: 220px;
+	/*border-right: 1px solid #ccc;*/
+}
+.w329>a ,
+.w219>a ,
+.w220>a {
+	display: block;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.w209 li {
+	float: left;
+	width: 90px;
+	height: 40px;
+	margin-left: 10px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+.w209>img {
+	margin-top: 10px;
+}
+.box_bd img {
+	left: 0;
+	transition: all .3s;
+}
+.box_bd a:hover img {
+	margin-left: 10px;
+}
+.box_bd .tv:hover img {
+	margin-left: 10px;
+}

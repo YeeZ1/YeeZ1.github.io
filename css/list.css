@@ -1,0 +1,142 @@
+.nav {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 2px solid #C81623;
+}
+.sk_list li {
+	float: left;
+	margin: 0 30px;
+}
+.sk_list li a {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+}
+.sk_con li {
+	float: left;
+	margin: 0 20px;
+}
+.sk_con li a {
+	font-weight: 700;
+	color: #666;
+}
+.sk_con li .current {
+	color: #f10825; 
+}
+.sk_hd {
+	margin-bottom: 25px;
+}
+.sk_goods {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid transparent;
+
+}
+.sk_goods:hover {
+	border-color: #f10825;
+}
+.sk_goods h4 {
+	padding: 10px 10px ;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+}
+.sk_goods >p {
+	padding: 0 15px ;
+}
+.sk_goods >p span {
+	font-size: 18px;
+	color: #f10825;
+}
+.sk_goods >p del {
+	font-weight: 700;
+	color: #A4A4A4;
+}
+.sk_goods_progress {
+	padding: 0 10px;
+}
+.sk_goods_progress i {
+	color: #f10825;
+}
+.bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	margin: 0 5px;
+	border: 1px solid #f10825;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+.barin {
+	/*float: left;*/
+	height: 10px;
+	width: 87%;
+	background-color: #f10825;
+}
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #b1191a;
+}
+.page {
+	height: 38px;
+	margin: 20px 0;
+	text-align: center;
+	/*background-color: pink;*/
+}
+.page_num a {
+	display: inline-block;
+	height: 36px;
+	width: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #F7F7F7;
+	border: 1px solid #ccc;
+}
+.page_num .page_prev,
+.page_num .page_next {
+	width: 88px;
+}
+.page_num .active {
+	border: none;
+	background-color: #fff;
+}
+.page_skip input {
+	height: 36px;
+	width: 50px;
+	margin: 0 3px ;
+	outline: none;
+	border: 1px solid #ccc;
+	text-align: center;
+	transition: all .4s;
+}
+.page_skip button {
+	height: 36px;
+	width: 56px;
+	margin-left: 3px;
+}
+.page_skip input:focus {
+	width: 80px;
+}
+.sk {
+	position: absolute;
+	right: -85px;
+	top: 50%;
+	margin-top: -18px;
+	width: 56px;
+	height: 31px;
+	padding-left: 16px;
+	padding-top: 5px;
+	border-left: 1px solid #f10825 ;
+	/*background-color: red;*/
+}

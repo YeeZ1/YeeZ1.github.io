@@ -1,0 +1,97 @@
+.w {
+	width: 1200px;
+	margin: 0 auto ;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.logo {
+	position: relative;
+	padding: 10px 0;
+	border-bottom: 2px solid #f00;
+}
+.logo a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	font-size: 0;
+	background: url(../img/logo.png) no-repeat;
+}
+.newuser {
+	height: 518px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.hd {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ECECEC;
+}
+.newuser h3 {
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.login a {
+	margin-right: 10px;
+	color: #f00;
+}
+.form {
+	height: 431px;
+	padding-top: 50px;
+	/*text-align: center;*/
+	/*background-color: pink;*/
+}
+.form table {
+	margin: 0 auto;
+}
+.form input {
+	width: 240px;
+	height: 36px;
+	margin-left: 10px;
+	outline: none;
+}
+.phone i {
+	color: red;
+}
+.form table tr {
+	height: 50px;
+	line-height: 50px;
+}
+table th {
+	text-align: right;
+}
+.form table .safe {
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+.safe span {
+	display: inline-block;
+	width: 36px;
+	height: 16px;
+	line-height: 16px;
+	color: #fff;
+	text-align: center;
+}
+.safe .red {
+	background-color: red;
+}
+.safe .green {
+	background-color: green;
+}
+.safe .yellow {
+	background-color: orange;
+}
+#checkbox {
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.agree{
+	/*padding-left: 100px;*/
+}
